@@ -8,8 +8,8 @@ programa
 		   um pedreiro gasta 5 dias para construir um número 
 		*/ 
 		
-		real dias = 5, pedreiro = 1, resto, restohoras, restominutos // declaração de todas as variaveis
-		inteiro pedreiros, horas, minutos, totaldias
+		real dias = 5, pedreiro = 1, resto  // declaração de todas as variaveis
+		inteiro pedreiros, horas, totaldias
 		escreva("Quantos pedreiros vão construir o muro? ")// pergunta para o usuario
 		
 		leia(pedreiros)
@@ -20,14 +20,7 @@ programa
 		
 		horas = resto * 24 // expressão utilizada para encontrar as horas
 		
-		restohoras = resto * 24 - horas
-		
-		minutos = restohoras * 60 - horas // logica utilizada para encontrar os minutos se for preciso
-
-		restominutos = 
-		
-		escreva(minutos)	
-		escreva(" serão necessarios ", totaldias, " dia(s) e ", horas, " hora(s) e ", minutos, " minuto(s) para finalizar o muro com ", pedreiros, " na obra!") // resultado final
+		escreva(" serão necessarios ", totaldias, " dia(s) e ", horas, " hora(s) para finalizar o muro com ", pedreiros, " na obra!") // resultado final
 		
 
 		
@@ -38,7 +31,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 894; 
+ * @POSICAO-CURSOR = 870; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
