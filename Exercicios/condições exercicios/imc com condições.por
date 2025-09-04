@@ -3,24 +3,20 @@ programa
 	
 	funcao inicio()
 	{
-		inteiro numero
+		/* criando codigo para calcular imc*/
+		real peso, altura, imc
 
-		escreva("digite um número para saber se o mesmo é par ou impar: ")
+		escreva("Digite seu peso(use '.' no lugar da virgula): ")
 		
-		leia(numero)
+		leia(peso)
 
-		se(numero % 2 == 0) {
+		escreva("Digite sua altura (use '.' no lugar da virgula): ")
 
-			escreva("O número digitado é par!")
-		
-		}
-		
+		leia(altura)
 
-		senao {
-			
-			escreva("O número digitado é impar!")
-			
-		}
+		imc = peso / (altura * altura)
+
+		se
 	}
 }
 /* $$$ Portugol Studio $$$ 
@@ -28,7 +24,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 117; 
+ * @POSICAO-CURSOR = 299; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
