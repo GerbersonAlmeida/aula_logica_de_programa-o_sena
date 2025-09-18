@@ -3,20 +3,16 @@ programa
 	
 	funcao inicio()
 	{
-		inteiro idade
+		inteiro contador = 1
+		inteiro idade, soma = 0
 
-		escreva("Informe seu desempenho de vendas: ")
-		leia(des_vendas)
-
-		se(des_vendas <= 499){
-			escreva("Desempenho baixo!")
+		enquanto(contador <= 5) { 
+			escreva("Informe a idade da ", contador, "° pessoa: ")
+			leia(idade)
+			soma = soma + idade
+			contador ++	
 		}
-		senao se(des_vendas >= 500 e des_vendas <= 2000){ 
-			escreva("Desempenho médio!")
-		}
-		senao {
-			escreva("Otimo desempenho")
-		}
+		escreva("A soma das idades é: ", soma)
 	}
 }
 /* $$$ Portugol Studio $$$ 
@@ -24,7 +20,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 48; 
+ * @POSICAO-CURSOR = 274; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
