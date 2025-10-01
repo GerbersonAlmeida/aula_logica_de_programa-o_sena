@@ -7,7 +7,7 @@ programa
 		/*aleatorizando números da mega-sena*/
 		inteiro contador = 0, numeros, n1 = 0, n2 = 0, n3 = 0, n4 = 0, n5 = 0, n6 = 0, n7 = 0, n8 = 0, n9 = 0, n10 = 0, n11 = 0, n12 = 0, n13 = 0, n14 = 0, n15 = 0, n16 = 0, n17 = 0, n18 = 0, n19 = 0, n20 = 0, n21 = 0, n22 = 0, n23 = 0, n24 = 0, n25 = 0, n26 = 0, n27 = 0, n28 = 0, n29 =0, n30 = 0, n31 = 0, n32 = 0, n33 = 0, n34 = 0, n35 = 0, n36 = 0, n37 = 0, n38 = 0, n39 = 0, n40 = 0, n41 = 0, n42 = 0, n43 = 0, n44 = 0, n45 = 0, n46 = 0, n47 = 0, n48 = 0, n49 = 0, n50 = 0, n51 = 0, n52 = 0, n53 = 0, n54 = 0, n55 = 0, n56 = 0, n57 = 0, n58 = 0, n59 = 0, n60 = 0
 
-		enquanto(contador <1000){
+		enquanto(contador <100000){
 			
 			numeros = Util.sorteia(1, 60) //usando biblioteca util para gerar números aleatorios de 1 a 60
 			
@@ -227,7 +227,36 @@ programa
 			escreva("Número 28 apareceu ", n28, " vez(es)!\n")
 			escreva("Número 29 apareceu ", n29, " vez(es)!\n")
 			escreva("Número 30 apareceu ", n30, " vez(es)!\n")
-			
+			escreva("Número 31 apareceu ", n31, " vez(es)!\n")
+			escreva("Número 32 apareceu ", n32, " vez(es)!\n")
+			escreva("Número 33 apareceu ", n33, " vez(es)!\n")
+			escreva("Número 34 apareceu ", n34, " vez(es)!\n")
+			escreva("Número 35 apareceu ", n35, " vez(es)!\n")
+			escreva("Número 36 apareceu ", n36, " vez(es)!\n")
+			escreva("Número 37 apareceu ", n37, " vez(es)!\n")
+			escreva("Número 38 apareceu ", n38, " vez(es)!\n")
+			escreva("Número 39 apareceu ", n39, " vez(es)!\n")
+			escreva("Número 40 apareceu ", n40," vez(es)!\n")
+			escreva("Número 41 apareceu ", n41, " vez(es)!\n")
+			escreva("Número 42 apareceu ", n42, " vez(es)!\n")
+			escreva("Número 43 apareceu ", n43, " vez(es)!\n")
+			escreva("Número 44 apareceu ", n44, " vez(es)!\n")
+			escreva("Número 45 apareceu ", n45, " vez(es)!\n")
+			escreva("Número 46 apareceu ", n46, " vez(es)!\n")
+			escreva("Número 47 apareceu ", n47, " vez(es)!\n")
+			escreva("Número 48 apareceu ", n48, " vez(es)!\n")
+			escreva("Número 49 apareceu ", n49, " vez(es)!\n")
+			escreva("Número 50 apareceu ", n50," vez(es)!\n")
+			escreva("Número 51 apareceu ", n51, " vez(es)!\n")
+			escreva("Número 52 apareceu ", n52, " vez(es)!\n")
+			escreva("Número 53 apareceu ", n53, " vez(es)!\n")
+			escreva("Número 54 apareceu ", n54, " vez(es)!\n")
+			escreva("Número 55 apareceu ", n55, " vez(es)!\n")
+			escreva("Número 56 apareceu ", n56, " vez(es)!\n")
+			escreva("Número 57 apareceu ", n57, " vez(es)!\n")
+			escreva("Número 58 apareceu ", n58, " vez(es)!\n")
+			escreva("Número 59 apareceu ", n59, " vez(es)!\n")
+			escreva("Número 60 apareceu ", n60," vez(es)!\n")
 	}
 }
 /* $$$ Portugol Studio $$$ 
@@ -235,7 +264,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 2893; 
+ * @POSICAO-CURSOR = 1068; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
